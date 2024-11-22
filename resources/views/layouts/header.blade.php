@@ -3,9 +3,9 @@
   <div class="container mx-auto px-4 py-4 flex justify-between items-center">
       <h1 class="text-2xl font-bold text-blue-600">MarketPlace</h1>
       <nav class="hidden md:flex space-x-4">
-          <a href="#home" class="text-gray-600 hover:text-blue-600">Home</a>
+          <a href="/" class="text-gray-600 hover:text-blue-600">Home</a>
           <a href="#categories" class="text-gray-600 hover:text-blue-600">Categories</a>
-          <a href="#products" class="text-gray-600 hover:text-blue-600">Products</a>
+          <a href="/contact" class="text-gray-600 hover:text-blue-600">Contact CS</a>
       </nav>
 
       <!-- Desktop: Login/Logout -->
@@ -35,9 +35,9 @@
   <!-- Mobile Menu -->
   <div id="mobile-menu" class="hidden md:hidden bg-gray-100 overflow-hidden transition-all duration-300">
       <nav class="flex flex-col items-center space-y-2 py-4">
-          <a href="#home" class="text-gray-600 hover:text-blue-600">Home</a>
+          <a href="/" class="text-gray-600 hover:text-blue-600">Home</a>
           <a href="#categories" class="text-gray-600 hover:text-blue-600">Categories</a>
-          <a href="#products" class="text-gray-600 hover:text-blue-600">Products</a>
+          <a href="/contact" class="text-gray-600 hover:text-blue-600">Contact CS</a>
 
           <!-- Profil User (Login/Logout) Outside Dropdown -->
           <div class="flex flex-col items-center mt-4 space-y-2">
